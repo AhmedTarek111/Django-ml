@@ -21,13 +21,16 @@
         {% bootstrap_form form %}
 
         <div class="mt-3">
-            {% bootstrap_button button_type="submit" content="OK" %}
-            {% bootstrap_button button_type="reset" content="Cancel" %}
+            {% bootstrap_button button_type="submit" content="Predict" %}
         </div>
     </form>
-    <div class="text-center">
+    <div class="text-center ">
         {% if result %}
-            {{ result }}
+          <p>
+            <span class="fw-bold">Result</span>
+            :
+            <span class="btn btn-success">  {{ result }}</span>
+          </p>
         {% endif %}
     </div>
 </div>
