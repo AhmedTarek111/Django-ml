@@ -37,8 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # apps 
     'ml',
+    # lib
     "django_bootstrap5",
+    'rest_framework',
 
 ]
 
